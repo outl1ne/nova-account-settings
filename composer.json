@@ -1,0 +1,38 @@
+{
+  "name": "outl1ne/nova-account-settings",
+  "description": "A Laravel Nova tool for editing own account settings.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "optimistdigital",
+    "outl1ne"
+  ],
+  "license": "MIT",
+  "require": {
+    "laravel/nova": "^4.12.0",
+    "outl1ne/nova-translations-loader": "^5.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Outl1ne\\NovaAccountSettings\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Outl1ne\\NovaAccountSettings\\NovaAccountSettingsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

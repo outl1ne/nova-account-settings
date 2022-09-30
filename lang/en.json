@@ -1,0 +1,7 @@
+{
+  "novaAccountSettings.navigationItemTitle": "Account settings",
+  "novaAccountSettings.saveButtonText": "Save account settings",
+  "novaAccountSettings.noSettingsFieldsText": "No account settings fields have been defined.",
+  "novaAccountSettings.accountSettingsSuccessToast": "Account settings successfully updated!",
+  "novaAccountSettings.accountSettings": "Account settings"
+}
